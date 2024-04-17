@@ -2,7 +2,7 @@ import os
 from langchain_community.chat_models import ChatOpenAI
 from langchain.chains import create_extraction_chain
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'SECRET KEY'
 
 
 schema = {

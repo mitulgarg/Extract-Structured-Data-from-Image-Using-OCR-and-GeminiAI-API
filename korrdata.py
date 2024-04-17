@@ -22,7 +22,7 @@ from langchain.callbacks import get_openai_callback
 def printOutput(output):
     print(json.dumps(output,sort_keys=True, indent=3))
 
-openai_api_key = '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'
+openai_api_key = 'SECRET KEY'
 
 
 llm = ChatOpenAI(
