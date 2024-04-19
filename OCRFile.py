@@ -15,7 +15,6 @@ img_pl = PIL.Image.open('/Users/mitulgarg/Desktop/image3.jpeg')
 # text_cv = pytesseract.image_to_boxes(img_cv)
 data = pytesseract.image_to_data(img_pl)
 d = list(map(lambda x: x.split('\t'), data.split('\n')))
-print()
-print()
+#random tabular data
 print(data)
 # print(d)
