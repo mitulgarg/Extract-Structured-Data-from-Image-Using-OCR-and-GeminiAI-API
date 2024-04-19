@@ -6,5 +6,5 @@ img = Image.open('/Users/mitulgarg/Desktop/image3.jpeg')
 # Perform OCR
 extracted_text = pytesseract.image_to_string(img)
 
-# Print the extracted text
+# Print the extracted random data
 print(extracted_text)
