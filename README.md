@@ -1,3 +1,5 @@
+# Data inside Image -> Structured Data
+
 OCRLLM.py first does OCR on Birth certificates using the 'pytesseract' library and extracts 'string' data.
 
 Data is cleaned by removing redundant symbols using the 're' library.
