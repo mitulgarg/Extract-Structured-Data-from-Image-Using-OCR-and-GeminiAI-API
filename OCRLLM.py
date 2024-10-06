@@ -16,7 +16,7 @@ print()
 OCRdata=cleaned_data
 
 try:
-    GOOGLE_API_KEY='AIzaSyDPFwTWwkw0E8zqjuMna8HTALiXRC0p0ns'
+    GOOGLE_API_KEY='YOUR-API-KEY'
 
 except ImportError:
     import os
